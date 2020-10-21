@@ -37,7 +37,7 @@ screen-page#page-methods(transition-name="slide-left-right")
     }),
     methods: {
       add (value) {
-        this[value.type === 'card' ? 'cards' : 'bankAccs'].push(value)
+        this[value.type === 'Card' ? 'cards' : 'bankAccs'].push(value)
       },
       anyClickHandler (event) {
         const parentComponent = parentsHasClass(event.target, 'commercial-account')
