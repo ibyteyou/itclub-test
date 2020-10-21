@@ -1,5 +1,5 @@
 <template lang="pug">
-div.p-3.commercial-account.border.border-black
+div.p-3.commercial-account.border.border-black(:data-value="number")
   div.border.border-black.h-8.w-8(v-if="type === 'card'")
   div.card-dot.border.border-black.h-2.w-2.rounded-full.bg-black.absolute
   div.card-dot.card-dot-2.border.border-black.h-2.w-2.rounded-full.bg-black.absolute

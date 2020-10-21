@@ -42,9 +42,8 @@ screen-page#page-methods(transition-name="slide-left-right")
       anyClickHandler (event) {
         const parentComponent = parentsHasClass(event.target, 'commercial-account')
         if (!parentComponent) return
-        if (!parentComponent.__vueParentComponent) throw new Error('vue3 unavailable DOM vnode alias (test)')
 
-        const number = parentComponent.__vueParentComponent.props.number
+        const number = parentComponent.getAttribute('data-value')
         if (number === null) return
 
         this.$emit('select', number)
