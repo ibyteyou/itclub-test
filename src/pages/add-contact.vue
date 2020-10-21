@@ -42,14 +42,14 @@ screen-page(transition-name="slide-left-right")
     methods: {
       close () {
         this.$emit('close')
+        this.reset()
       },
       reset () {
-        this.form.firstName = ''
-        this.form.lastName = ''
-        this.form.email = ''
+        this.form = defaultForm()
       },
       save () {
         this.$emit('save', this.newContact)
+        this.reset()
       }
     }
   }
