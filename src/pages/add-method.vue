@@ -18,7 +18,7 @@ screen-page(transition-name="slide-left-right")
   import ButtonToggle from '../components/buttons/toggle.vue'
   import Store from '../store.js'
 
-  const commercialModes = ['card', 'bankAcc']
+  const commercialModes = ['Card', 'Bank Account']
   function defaultForm () {
     return {
       name: '',
@@ -42,7 +42,7 @@ screen-page(transition-name="slide-left-right")
         return !this.form.name || !this.form.number || !this.form.date
       },
       card () {
-        return this.form.type === 'card'
+        return this.form.type === 'Card'
       }
     },
     watch: {
