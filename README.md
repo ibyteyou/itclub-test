@@ -37,7 +37,7 @@ yarn build || npm run build
 
 > Put your code to your GitHub repository.
 
-**https://github.com/ibyteyou/itclub-test**
+**[https://github.com/ibyteyou/itclub-test](https://github.com/ibyteyou/itclub-test)**
 
 > Provide the documentation how to run you code locally.
 
@@ -45,4 +45,4 @@ yarn build || npm run build
 
 Deploy your application to any free cloud hosting like [https://vercel.com/](https://vercel.com/) or [https://www.netlify.com/](https://www.netlify.com/) and add the link to your documentation. (Optional)
 
-**hmmm2**
+**[https://itclub-test.netlify.app](https://itclub-test.netlify.app)/**
