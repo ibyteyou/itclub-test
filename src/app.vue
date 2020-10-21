@@ -57,24 +57,24 @@ export default {
       button
         font-size: 20px
         padding: .5em 1.5em
-.fade-bottom-top-enter-active,
-.fade-bottom-top-leave-active,
-.slide-left-right-enter-active,
-.slide-left-right-leave-active
-  transition: all .175s ease-out
-.fade-bottom-top-enter-from
-  opacity: 0
-  transform: translateY(100vh)
-.fade-bottom-top-enter-to
-  opacity: 1
-  transform: translateY(0)
-.fade-bottom-top-leave-to
-  opacity: 0
-  transform: translateY(100vh)
-.slide-left-right-enter-from
-  transform: translateX(100vw)
-.slide-left-right-enter-to
-  transform: translateX(0)
-.slide-left-right-leave-to
-  transform: translateX(100vw)
+  .fade-bottom-top-enter-active,
+  .fade-bottom-top-leave-active,
+  .slide-left-right-enter-active,
+  .slide-left-right-leave-active
+    transition: all .175s ease-out
+  .fade-bottom-top-enter-from
+    opacity: 0
+    transform: translateY(100vh)
+  .fade-bottom-top-enter-to
+    opacity: 1
+    transform: translateY(0)
+  .fade-bottom-top-leave-to
+    opacity: 0
+    transform: translateY(100vh)
+  .slide-left-right-enter-from
+    transform: translateX(100vw)
+  .slide-left-right-enter-to
+    transform: translateX(0)
+  .slide-left-right-leave-to
+    transform: translateX(100vw)
 </style>
