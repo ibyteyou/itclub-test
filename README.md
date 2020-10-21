@@ -33,7 +33,7 @@ yarn build || npm run build
 
 > Don't allow the application to use a fullscreen mode in the mobile browser. (Optional)
 
-**hmmm**
+**done**
 
 > Put your code to your GitHub repository.
 
